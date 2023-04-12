@@ -1,4 +1,6 @@
-const products = [
+import { Iproduct } from "../models/product";
+
+const products:Iproduct[] = [
   {
     "id": 1,
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
