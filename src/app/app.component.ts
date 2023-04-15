@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Iproduct } from './models/product';
+import { products as data } from './data/products';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Shop';
+  products:Iproduct[] = data;
 }
