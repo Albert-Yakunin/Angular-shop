@@ -9,6 +9,7 @@ import { GlobalErrorComponent } from './components/global-error/global-error.com
 import { FormsModule } from '@angular/forms';
 import { FilterProductsPipe } from './pipes/filter-products.pipe';
 import { ModalWindowComponent } from './components/modal-window/modal-window.component';
+import { CreateProductComponent } from './components/create-product/create-product.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ModalWindowComponent } from './components/modal-window/modal-window.com
     GlobalErrorComponent,
     FilterProductsPipe,
     ModalWindowComponent,
+    CreateProductComponent,
   ],
   imports: [
     BrowserModule,
