@@ -24,6 +24,6 @@ export class ProductService {
       .get<Iproduct[]>('https://fakestoreapi.com/products', {
         params: new HttpParams().append('limit', 5),
       })
-      .pipe(delay(500), catchError(this.errorHandler));
+      .pipe(delay(500), catchError(this.errorHandler.bind(this)));
   }
 }
