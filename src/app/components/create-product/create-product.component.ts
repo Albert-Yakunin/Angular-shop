@@ -19,6 +19,6 @@ export class CreateProductComponent {
   }
 
   submit() {
-    console.log(this.form.value);
+
   }
 }
