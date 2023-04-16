@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ModalService } from 'src/app/services/modal.service';
 
 @Component({
   selector: 'app-modal-window',
@@ -7,4 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ModalWindowComponent {
   @Input() title: string;
+  constructor(public modalService:ModalService){}
 }
